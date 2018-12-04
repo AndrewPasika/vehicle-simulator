@@ -7,7 +7,7 @@ import numpy
 from collections import OrderedDict
 import sys
 
-MAPS_API_KEY = 'AIzaSyADlvuAfCVQQRYk3BpJxLDBYtBpWHa4cHQ'
+MAPS_API_KEY = 'IGNORE'
 gmaps = googlemaps.Client(key=MAPS_API_KEY)
 
 def calculate_distance(origin, destination):
